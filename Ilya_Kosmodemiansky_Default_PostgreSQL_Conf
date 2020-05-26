@@ -3,3 +3,23 @@
     - suggested on channel that "it is a latex issue"
 
 [Q] How about making some of your suggestions the default settings?
+
+[Q] can i have multiple log outputs working at same time? i would like to have
+    separate file or syslog host for 'errors' only
+
+[Q] With a connection pooler in front, is there any value in limiting max_connections 
+    (aside from "just in case")?
+
+[Q] What changes do you need to make to autovacuum settings for insert-only tables?  
+    Or insert-mostly tables (e.g. with only manual fixes to a few records a year out 
+    of million)
+
+[Q] I want to ask   if there is any ASH and AWR tools in postgresql like oracle ?
+
+[Q] would hint to PostgreSQL how much memory it can expect to be usable, and also
+    you limit against misconfiguration in pooler Q2: you would probably want auto
+    vacuum to freeze all the tuples in append-only table before they actually get
+    flushed to disk.
+
+[Q] I would be willing to buy a dishwasher with OpenBSD & PostgreSQL - does it 
+    actually exist?
