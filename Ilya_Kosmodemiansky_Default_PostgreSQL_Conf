@@ -17,9 +17,49 @@
 [Q] I want to ask   if there is any ASH and AWR tools in postgresql like oracle ?
 
 [Q] would hint to PostgreSQL how much memory it can expect to be usable, and also
-    you limit against misconfiguration in pooler Q2: you would probably want auto
+    you limit against misconfiguration in pooler
+
+[Q] you would probably want auto
     vacuum to freeze all the tuples in append-only table before they actually get
     flushed to disk.
 
 [Q] I would be willing to buy a dishwasher with OpenBSD & PostgreSQL - does it 
     actually exist?
+
+[Q] How many Maximum session can be assigned to used by application ?
+
+[Q] It is main reason why replica must have not lower connection count than master?
+
+[Q] I heard that postgresql uses maximum 1 GB for maintenance_work_mem. is it true?
+
+[Q] can you provide examples where tcp_keepalives_idle  would be required to set, 
+    and which value should we use in each case?
+
+[Q] How to set password verification function for postgres users ?
+
+[Q] Is there any Postgres tool that will balance read queries between replicas and send
+    write queries to the primary
+
+[Q] What's the drawback with using pg_bouncer? Do you still get the same kind of isolation
+    on each connection? separate transactions? etc
+
+[Q] Does the idle state connection consume resources? how much if it consumes? I am asking
+    this for connnection pooling  tool. I see a lots of connection in idle state.
+
+[Q] How can I make autovacuum consider even small tables (10 records) for analysis? It
+    ignores them now and causes terrible plans (no statistics -> wrong joins).
+
+[Q] Is there a way to setup the log settings so that it does not log user's passwords when
+    logging sql statements?
+
+[Q] Postgres relies operation system's memory. Is there any way to find out how
+    much memory is actually used by postgres?
+
+[Q] postgresql parses every query, even if the same query comes up. Can't cache these
+    query plans and run them over and over?
+
+[Q] You mentioned that effective_io_concurrency values for SSD are a bit contentious. 
+    What about recommendations for random_page_cost for SSD vs HDD?
+
+[Q] can you provide examples where tcp_keepalives_idle  would be required to
+    set, and which value should we use in each case?
