@@ -1,3 +1,3 @@
 - [Q] If someone else does get your SCRAM verifier, can they potentially use it for a MITM attack?
 - is the password for stored key and server key the same user password? or is there a separate server secret?
-
+- Is there a way to implement this with LDAP?
