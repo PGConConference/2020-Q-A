@@ -1,6 +1,6 @@
 [Q] can you move closer to the microphone? it is difficult to hear you
 
-[Q] would you suggest a partitioninng scheme with two partitions? one on
+[Q] would you suggest a partitioning scheme with two partitions? one on
 end_time = infinity and one default for all the rest?
 
 [Q] Is this already implemented, or is this your suggestion?
@@ -37,3 +37,19 @@ work
 shift/reduce conflicts? I had a problem there adding UPDATE/DELETE FOR PORTION
 OF p FROM t1 TO t2. (I have a slide about this too.) I'm curious if you
 encountered that and if so how you solved it.
+
+[Q]Do you do something to distinguish duplicates? Or just let them exist (and
+possibly raise a constraint violation)?
+
+[Q] If we do want to support ranges too, it might be better to store NULL
+instead of 'Infinity' as the "until further notice" end time, because for ranges
+'Infinity' is "less than" NULL. (My talk tomorrow has a slide about this.) What
+do you think of that?
+
+[Q] The last time I looked at this patch, it seemed to be hard-coding the
+SYSTEM_TIME period name in the parser (and it was also using the non-standard
+SYSTEM TIME (two words)). Do you have plans to incorporate xocolatl's patch that
+lets real PERIOD support (e.g. so that you can ask Postgres which PERIODs are
+supported)? I'm interested in incorporating that patch into my own valid-time
+work (especially since valid-time lets you give any PERIOD name you want).
+How about we coordinate about that?
