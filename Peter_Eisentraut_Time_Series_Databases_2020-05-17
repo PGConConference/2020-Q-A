@@ -8,3 +8,6 @@
 <russw> [Q] The timescaledb extension already exists... Does it already implement a lot of the things you mentioned could be improved?
 <xocolatl> [Q] I recently needed width_bucket for timestamptz that I was going to submit as a patch.  
 should I submit it, or do you also have a patch for it and others?
+
+<Marius46> [Q] question regarding custom type creation. documentation says, that types are implemented using mostly c. is it possible to create type using sql language? 
+performance is not critical, type required as an interface, so units can be converted correctly, like liters, galons etc
