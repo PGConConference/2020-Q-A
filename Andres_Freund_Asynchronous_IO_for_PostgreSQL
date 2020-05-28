@@ -1,2 +1,9 @@
-[Q] Can you clarify where the benefits of AIO come from when still doing buffered IO?
+[Q] Can you clarify where the benefits of AIO come from when still doing
+    buffered IO?
 
+[Q] Can't those Submission/Completion queues be new bottlenecks?
+
+[Q] You mentioned that read-ahead is hampered by the 1G file boundaries. How
+    adversely will such an event affect read-ahead?
+
+[Q] Do you see WAL as a requirement for inclusion ?
