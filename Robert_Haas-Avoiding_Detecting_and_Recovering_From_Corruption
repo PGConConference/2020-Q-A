@@ -10,3 +10,5 @@ What home grown scripts do you mean?
 <aminet> [Q] how can I recover pg_control?
 
 <azeem> [Q] why is pg_catcheck not in core/contrib and/or did you consider contributing it?
+
+<keithf4> [Q] Was your bad experience with zfs on zfs-on-linux or with OS native zfs?
