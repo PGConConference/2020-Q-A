@@ -9,3 +9,8 @@ Answer: <Shichao> not checked with v13, you can utilize and look through the ben
 <Snow-Man> [Q] How does the FDW method get the data into the WAL..?
 <jpedersen> [Q] Shichao: my question is about: How much of your extension will you submit to core ?
 <russw> [Q] Are there particular use cases where LSM would be better than BTree, or do you think it would always be better?
+Answer: Shichao> should be lsm-tree
+<Shichao> lsm-tree is definitely better in the data ingestion
+<Shichao> in terms of reading performance, depnds on tuning.
+<Shichao> additionally, if data fits in ram, lsm-tree would also be good to have.
+<Shichao> especially, first time visit without hitting cache
