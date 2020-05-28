@@ -1,0 +1,2 @@
+<coreyhuinker> [Q] would your delta triggers be easier to implement if aggregate functions had an inverse-transition function? 
+For example, the inverse function of SUM() would subtract the amount from the internal state instead of adding it?
