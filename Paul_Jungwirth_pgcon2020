@@ -1,2 +1,6 @@
 <davidfetter> do we have a lot of room to run with making heap_(de)?form_tuple more efficient?
 <xocolatl> [Q] wouldn't an EXISTS query be more efficient than a full aggregate?
+<xocolatl> [Q] what should we do about RETURNING and FOR PORTION?  (the spec gives no guidance because it doesn't have a RETURNING clause)
+
+Optional question:
+<xocolatl> [Q] how did you handle intervals?
