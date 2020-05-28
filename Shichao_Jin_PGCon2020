@@ -4,3 +4,6 @@ Answer: <Shichao> I haven/t done that part. The extension is still not mature, w
 Answer: <Shichao> not checked with v13, you can utilize and look through the benchmark we wrote.
 <Shichao> but the problem comes from B+tree itself, which lsm-tree gracefully solves.
 <Shichao> benchmark we wrote https://github.com/vidardb/Benchmark
+<jpedersen> [Q] Do you see patch using LSM for PostgreSQL/Core ? Or at least contrib?
+<mason___> [Q] Can you please explain more about handling concurrent reads and MVCC? Is the sequence number you mentioned a Commit Sequence Number? Or something else?
+<Snow-Man> [Q] How does the FDW method get the data into the WAL..?
