@@ -1,0 +1,5 @@
+<russw> [Q] Is the b-tree optimization for appending an automatic thing, or do you need to enable it?
+<russw> [Q] In time-series examples where you do end up doing rare updates (perhaps a migration of log records where content strings are adjusted), such updates break BRIN index ranges. Is there anything automatic to take care of this, or do you just need to remember to rebuild your BRIN?
+<xocolatl> [Q] do you know if anyone is working on automatic partition creation? (for core, not as an extension)
+<dtseiler> [Q] does dropping an old partition also require a heavy lock like detach does?
+<jpedersen> [Q] Do you think that with the new Btree index in 13 that Zedstore could be an option for time series ?
