@@ -8,3 +8,4 @@ Answer: <Shichao> not checked with v13, you can utilize and look through the ben
 <mason___> [Q] Can you please explain more about handling concurrent reads and MVCC? Is the sequence number you mentioned a Commit Sequence Number? Or something else?
 <Snow-Man> [Q] How does the FDW method get the data into the WAL..?
 <jpedersen> [Q] Shichao: my question is about: How much of your extension will you submit to core ?
+<russw> [Q] Are there particular use cases where LSM would be better than BTree, or do you think it would always be better?
