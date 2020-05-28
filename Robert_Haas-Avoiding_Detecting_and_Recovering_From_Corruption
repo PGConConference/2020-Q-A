@@ -1,0 +1,10 @@
+<aminet>  [Q] Hi. I saw that the size of the pg_control file is 0 on a postgres server. 
+What might have caused this? By the way, no disc was full.
+
+<PGCon_63845>  [Q] Is there a way to tell how many rows of a table are corrupted? 
+And will be zeroed out if you use zero_damaged_pages = on and vacuum/reindex the table?
+
+<dvl> [Q] by not using home grown scripts for backups, I use pg_dump within a script, but I don't think you mean not to script pg_dump. 
+What home grown scripts do you mean?
+
+<aminet> [Q] how can I recover pg_control?
