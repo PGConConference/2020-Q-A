@@ -1,0 +1,20 @@
+[Q] What's the difference between pgagroal and pgbouncer\odyssey?
+
+[Q] can -cli or -admin calls be scripted/scraped for monitoring jobs
+(exporters/prometheus/etc)
+
+[Q] why can't it do SELECT on a replica?
+
+[Q]  I guess I'm still confused about replica connections. Does pgbouncer
+just allow them? PG would enforce them being read-only.
+
+[Q] I had was about how you do pooling. pgbouncer pools by DB+username.
+Obviously then this doesn't work well if using dynamic credentials like with
+Hashicorp Vault. Does pgagroal do anything differently there that would work
+better in this scenario? Or is there no way around DB+username based pooling
+since that is what makes a connection?
+
+[Q] Does pgagroal break out the application_name in its metrics? We currently
+also patch pgbouncer so we can aggregate connection state by application_name.
+
+[Q] So there's no tracking of application_name?
