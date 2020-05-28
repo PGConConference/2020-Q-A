@@ -1,0 +1,8 @@
+[Q] It was said that pg_plan_advsr is POC. What's the status of 
+    pg_qualstats?
+
+[Q] The method behind pg_plan_advsr was explained, but how is
+    intende dto be used in practice? Would it automatically
+    optimize in the background, or does a DBA need to manually intervene?
+
+
