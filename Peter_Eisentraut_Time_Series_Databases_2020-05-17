@@ -3,3 +3,8 @@
 <xocolatl> [Q] do you know if anyone is working on automatic partition creation? (for core, not as an extension)
 <dtseiler> [Q] does dropping an old partition also require a heavy lock like detach does?
 <jpedersen> [Q] Do you think that with the new Btree index in 13 that Zedstore could be an option for time series ?
+
+
+<russw> [Q] The timescaledb extension already exists... Does it already implement a lot of the things you mentioned could be improved?
+<xocolatl> [Q] I recently needed width_bucket for timestamptz that I was going to submit as a patch.  
+should I submit it, or do you also have a patch for it and others?
