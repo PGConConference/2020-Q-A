@@ -1,0 +1,12 @@
+[Q] Right now most of the configuration changes, even pg_hba, causes  rolling
+     update when pods are restarted. Do you have plans to patch this behavior?
+     If no, do you need any help with this?
+
+[Q] upgrading through replica... does that mean the data is duplicated?
+
+[Q] do you have any load balancer like pgpool in front of your replicas or do
+    clients connect directly to postgres pods ?
+
+[Q] You talked about a 10% dirty buffer limit that is set at the node level.
+    What property controls that? is it a kernel setting or docker/kubernetes
+    setting?
